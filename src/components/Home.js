@@ -65,7 +65,7 @@ class Home extends Component {
 				  		)}/>
 				  		<Route exact path="/signin" component={SignIn} />
 				  		<Route exact path="/signup" component={SignUp} />
-					  	<Route component={NoMatch}/>
+				  		<Route component={NoMatch}/>
 				  	</Switch>
 				</div>
 		  	</Router>
